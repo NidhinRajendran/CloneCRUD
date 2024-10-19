@@ -1,0 +1,19 @@
+#main{
+  background-image: url('https://i.etsystatic.com/28878645/r/il/ca3254/3172261746/il_fullxfull.3172261746_4fnr.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+#dark{
+  background-color: rgba(0, 0, 0, 0.815);
+  width: 100%;
+  height: 100vh;
+
+}
+input[type="text"]::placeholder{
+  color: white;
+}
