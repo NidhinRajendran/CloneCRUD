@@ -28,8 +28,8 @@ function Footer() {
             </ul>
 
           </div>
-          <div className="col-md-2">
-            <ul className='list-unstyled ms-2'>
+          <div className="col-md-3">
+            <ul className='list-unstyled ms-5'>
               <li className='text-light mt-1'>React</li>
               <li className='text-light mt-1'>React-Bootstrap</li>
               <li className='text-light mt-1'>Bootswatch</li>
@@ -37,13 +37,13 @@ function Footer() {
               
             </ul>
           </div>
-          <div className="col-md-4">
-            <h4 className='text-light'>CONTACT <span className='text-primary'>US</span></h4>
-            <div className='d-flex'>
+          <div className="col-md-3">
+            <h4 className='text-light ms-5 ms-md-0'>CONTACT <span className='text-primary'>US</span></h4>
+            <div className='d-md-flex ms-5 ms-md-0  '>
               <input type="text" placeholder='Email Address' className='text-light form-control bg-dark rounded p-1' style={{width:'65%'}}  />
-              <button className='btn btn-primary ms-2'>Subscribe</button>
+              <button className='btn btn-primary ms-0 ms-md-2 mt-2 mt-md-0'>Subscribe</button>
             </div>
-            <p className=' text-light mt-3'>Netflix India</p>
+            <p className=' text-light mt-3 ms-5 ms-md-0'>Netflix India</p>
           </div>
         </div>
       </div>

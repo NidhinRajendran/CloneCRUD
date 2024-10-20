@@ -11,16 +11,15 @@ function Landing() {
     <div id='main'>
       <div id='dark'>
         <div className='container-fluid'>
-          <div className='row'>
-            <div className="col-md-2">
-            <img src="https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-5.png" alt="no image" width={'100%'} className='ms-5 mt-3' />
+          
+            <div className="d-flex justify-content-between">
+            <img src="https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-5.png" alt="no image" width={'10%'} className='ms-5 mt-3' />
 
+            
+            
+              <button className='btn btn-primary mt-3 me-5 border border-dark'>Sign In</button>
             </div>
-            <div className="col-md-8"></div>
-            <div className="col-md-2">
-              <button className='btn btn-primary mt-3 px-4 border border-dark'>Sign In</button>
-            </div>
-          </div>
+          
           
 
         
