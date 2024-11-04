@@ -1,0 +1,13 @@
+.poster{
+    width: 25%;
+    height: 250px;
+    margin-right: 20px;
+}
+
+#posters{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#posters::-webkit-scrollbar{
+    display: none;
+}

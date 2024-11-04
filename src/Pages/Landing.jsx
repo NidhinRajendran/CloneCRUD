@@ -2,6 +2,8 @@ import React from 'react'
 import './Landing.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGreaterThan } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
+
 
 
 function Landing() {
@@ -34,7 +36,7 @@ function Landing() {
               <p className='text-light text-center pt-2'>Ready to watch? Enter your email to create or restart your membership.</p>
               <div className='d-flex justify-content-center'>
                 <input type="text" placeholder='Email Address' className='form-control bg-transparent text-light w-50 py-3'  />
-                <button className='btn btn-primary py-3 ms-2'>Get Started   <FontAwesomeIcon icon={faGreaterThan} /></button>
+                <Link to={'/home'}><button className='btn btn-primary py-3 ms-2'>Get Started   <FontAwesomeIcon icon={faGreaterThan} /></button></Link>
               </div>
               
             </div>
