@@ -10,7 +10,7 @@ function RowPost() {
     </div>
 
     <h3 className='text-light mt-5'>Trending Now</h3>
-    <div className='row '>
+    <div className='row pb-5 '>
             <Banner/>
     </div>
     </>

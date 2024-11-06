@@ -14,7 +14,7 @@ function Header() {
       <Container>
         <div className='d-flex'>
           <Navbar.Brand ><img src="https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-5.png" alt="no image" width={'10%'}/></Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar.Toggle style={{color:'white'}} aria-controls="navbarScroll" />
         </div>
         <Navbar.Collapse id="navbarScroll">
           <Nav

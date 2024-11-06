@@ -16,22 +16,22 @@ function Home() {
       backgroundSize: 'cover', // Adjust size (contain, cover, etc.)
       backgroundPosition: 'center', // Adjust position
        // Full height
-      backgroundRepeat:'no-repeat'}} >
+      backgroundRepeat:'no-repeat',}} >
         <div style={{ backgroundColor:'rgba(0, 0, 0, 0.815)',
-  width: '100%'}}>
+        width: '100%'}}>
 
     <div className='container-fluid'>
       <div className='row'>
         <div className="col-md-6">
-        <h1 style={{paddingTop:'10%'}} className='text-light ms-5'>Title</h1>
-        <p className='text-light ms-5' style={{textAlign:'justify'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam neque fugit accusantium debitis, minus perspiciatis nostrum tempore nihil cum. Harum aliquid dolor quia quo ducimus earum magni dicta a aut.</p>
-        <div className='ms-5'>
+        <h1 style={{paddingTop:'10%'}} className='text-light ms-md-5 ms-2'>Title</h1>
+        <p className='text-light ms-md-5 ms-2' style={{textAlign:'justify'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam neque fugit accusantium debitis, minus perspiciatis nostrum tempore nihil cum. Harum aliquid dolor quia quo ducimus earum magni dicta a aut.</p>
+        <div className='ms-md-5 ms-2'>
           <button className='btn btn-outline-light rounded-0 me-2'>Play</button>
           <button className='btn btn-outline-light rounded-0'>My List</button>
 
           </div>
         </div>
-        <div className="col-md-6 d-flex justify-content-center align-items-center ">
+        <div className="col-md-6 d-md-flex justify-content-center align-items-center  ms-md-0 ms-2 ">
         <Card className='border-0'  style={{ width: '80%',marginTop:'10%', height:'350px'}}>
       <Card.Img  variant="top" src="https://geekculture.co/wp-content/uploads/2021/09/squid-game.jpeg" style={{width:'100%',height:'100%'}} />
     </Card>
@@ -40,7 +40,7 @@ function Home() {
     </div>
 
     <div className='container-fluid'>
-      <div className='ms-5 mt-5'>
+      <div className='ms-md-5 ms-2 mt-5'>
         <RowPost/>
       </div>
     </div>

@@ -11,3 +11,13 @@
 #posters::-webkit-scrollbar{
     display: none;
 }
+
+@media(max-width : 600px)
+        {
+            .poster{
+                width: 35%;
+    height: 150px;
+
+            }
+             
+                }
